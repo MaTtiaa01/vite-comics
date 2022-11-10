@@ -4,6 +4,8 @@ import Header from "./components/Header.vue";
 import Main_black_bar from "./components/Main_black_bar.vue";
 import Main_icons_shop from "./components/Main_icons_shop.vue";
 import Main_jumbotron from "./components/Main_jumbotron.vue";
+import Footer from "./components/Footer.vue";
+
 
 export default {
   name: "App",
@@ -12,6 +14,7 @@ export default {
     Main_black_bar,
     Main_icons_shop,
     Main_jumbotron,
+    Footer,
   },
 }
 </script>
@@ -33,9 +36,7 @@ export default {
 
     </main>
     <!-- /#site_main -->
-    <footer id="site_footer">
-
-    </footer>
+    <Footer></Footer>
     <!-- /#site_footer -->
   </div>
 </template>
