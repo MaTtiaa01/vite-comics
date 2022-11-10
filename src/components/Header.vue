@@ -34,7 +34,8 @@ export default {
                 {
                     page: "shop"
                 }
-            ]
+            ],
+            active: null,
         }
     }
 }
@@ -48,8 +49,8 @@ export default {
             </div>
             <div class="navbar">
                 <ul>
-                    <li v-for="page in pages">
-                        <a href="#">{{ page.page }}</a>
+                    <li v-for="page, i in pages">
+                        <a :class="i === 1 ? 'active' : ''" href="#">{{ page.page }}</a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +80,12 @@ header {
             color: $dark;
             text-decoration: none;
             font-size: 15px;
+            font-weight: bold;
             text-transform: uppercase;
+
+            &.active {
+                color: $primary;
+            }
         }
     }
 }

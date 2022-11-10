@@ -20,25 +20,25 @@ export default {
 </script>
 
 <template>
-  <div id="app">
 
-    <Header></Header>
-    <!-- /#site_header -->
-    <main id="site_main">
-      <Main_black_bar></Main_black_bar>
-      <!-- /black_bar -->
-      <Main_icons_shop></Main_icons_shop>
 
-      <!-- /icons_shop -->
-      <Main_jumbotron></Main_jumbotron>
+  <Header></Header>
+  <!-- /#site_header -->
+  <main id="site_main">
+    <Main_black_bar></Main_black_bar>
+    <!-- /black_bar -->
+    <Main_icons_shop></Main_icons_shop>
 
-      <!-- /jumbotron -->
+    <!-- /icons_shop -->
+    <Main_jumbotron></Main_jumbotron>
 
-    </main>
-    <!-- /#site_main -->
-    <Footer></Footer>
-    <!-- /#site_footer -->
-  </div>
+    <!-- /jumbotron -->
+
+  </main>
+  <!-- /#site_main -->
+  <Footer></Footer>
+  <!-- /#site_footer -->
+
 </template>
 
 
