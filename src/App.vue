@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-  <div id="app" class="container">
+  <div id="app">
 
     <Header></Header>
     <!-- /#site_header -->
