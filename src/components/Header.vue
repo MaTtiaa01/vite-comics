@@ -7,7 +7,7 @@ export default {
 <template>
     <header id="site_header">
         <div class="logo">
-            <img src="" class="" alt="">
+            <img src="./assets/img/dc-logo.png" class="" alt="">
         </div>
         <div class="navbar">
             <ul>
