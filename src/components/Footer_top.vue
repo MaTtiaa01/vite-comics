@@ -21,6 +21,11 @@ export default {
                                 <li><a href="#">Movies</a></li>
                                 <li><a href="#">Movies</a></li>
                             </ul>
+                            <h4 class="text-uppercase">Shop</h4>
+                            <ul>
+                                <li><a href="#">Movies</a></li>
+                                <li><a href="#">Movies</a></li>
+                            </ul>
                         </div>
                         <div class="col-2 ">
                             <h4 class="text-uppercase">dc</h4>
@@ -49,8 +54,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col dc_background">
-
+                <div class=" dc_background">
                 </div>
             </div>
         </div>
