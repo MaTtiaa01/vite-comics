@@ -6,6 +6,7 @@ export default {
 
 <template>
     <div class="jumbotron">
+
     </div>
 </template>
 
@@ -14,5 +15,15 @@ export default {
     background-image: url(../assets/img/jumbotron.jpg);
     background-size: cover;
     height: 400px;
+
+    .container {
+        position: relative;
+    }
+
+    button {
+        position: absolute;
+        left: 1rem;
+        bottom: -1rem;
+    }
 }
 </style>
