@@ -41,7 +41,7 @@ export default {
                         <!-- <img :src="`../assets/img/${product.img}`" alt=""> -->
 
                     </div>
-                    <div class="product_name">{{ product.product }}</div>
+                    <div class="product_name text-uppercase">{{ product.product }}</div>
                 </div>
             </div>
         </div>
@@ -55,10 +55,11 @@ export default {
 .icons_shop {
     background-color: $primary;
     padding: 2rem 0;
+    color: $lighter;
 
     img {
         color: $lighter;
-        width: 40px;
+        width: 50px;
         margin-right: 0.5rem;
     }
 }

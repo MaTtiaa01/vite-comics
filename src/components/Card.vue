@@ -10,7 +10,7 @@ export default {
 
 <template>
     <div class="col">
-        <div class="box p-2">
+        <div class="box ">
             <div class="box_top">
                 <img :src="image" alt="">
             </div>
@@ -21,6 +21,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/scss/Variables.scss" as *;
+
 
 .box_bottom {
     color: $lighter;

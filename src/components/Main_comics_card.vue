@@ -20,7 +20,7 @@ export default {
 <template>
     <div class="comics_cards">
 
-        <div class="container text-center py-4">
+        <div class="container text-center py-5 ">
             <div class="row row-cols-2 row-cols-sm-4 row-cols-md-6 g-4">
                 <Card_comic v-for="comic in comics" :image="comic.thumb" :title="comic.series">
                 </Card_comic>
@@ -42,7 +42,7 @@ button {
     background-color: $primary;
     padding: 0.25rem 1.5rem;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 15px;
     border: 1px solid $primary;
     margin-top: 2rem;
 }
