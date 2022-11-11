@@ -35,7 +35,7 @@ export default {
     <section class="icons_shop">
         <div class="container">
             <div class="row row-cols-5">
-                <div class="col" v-for="product, i in products">
+                <div class="col d-flex align-items-center" v-for="product, i in products">
                     <div class="product_image">
                         <img :src="`/src/assets/img/${product.img}`" alt="">
                         <!-- <img :src="`../assets/img/${product.img}`" alt=""> -->
@@ -60,21 +60,6 @@ export default {
         color: $lighter;
         width: 40px;
         margin-right: 0.5rem;
-    }
-
-    .row {
-        display: flex;
-        justify-content: space-between;
-
-        .col {
-            display: flex;
-            align-items: center;
-
-            .product_name {
-                color: $lighter;
-                text-transform: uppercase;
-            }
-        }
     }
 }
 </style>
