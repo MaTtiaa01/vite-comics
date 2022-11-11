@@ -1,11 +1,12 @@
 <script>
 export default {
-    name: "Footer"
+    name: "Footer_bottom"
 }
 </script>
 
 <template>
-    <footer id="site_footer">
+    <div class="footer_bottom">
+
         <div class="call_to_action">
             <button>sing-up now!</button>
         </div>
@@ -17,5 +18,6 @@ export default {
             <a href=""></a>
             <a href=""></a>
         </div>
-    </footer>
+    </div>
+
 </template>
