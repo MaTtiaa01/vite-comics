@@ -44,7 +44,7 @@ export default {
 <template>
     <header id="site_header">
         <div class="container">
-            <div class="logo">
+            <div class="logo my-2">
                 <img src="../assets/img/dc-logo.png" class="" alt="">
             </div>
             <div class="navbar">
@@ -67,7 +67,6 @@ header {
     .container {
         display: flex;
         justify-content: space-between;
-        padding: 1rem 0;
         align-items: center;
     }
 
@@ -76,6 +75,7 @@ header {
         display: flex;
 
         a {
+            padding: 3rem 0;
             margin-left: 1rem;
             color: $dark;
             text-decoration: none;
@@ -85,6 +85,10 @@ header {
 
             &.active {
                 color: $primary;
+            }
+
+            &:hover {
+                border-bottom: 4px solid $primary;
             }
         }
     }
