@@ -10,11 +10,21 @@ export default {
 
 <template>
     <div class="col">
-        <div class="card">
-            <div class="card_top">
+        <div class="box p-2">
+            <div class="box_top">
                 <img :src="image" alt="">
             </div>
-            <div class="card_bottom">{{ title }}</div>
+            <div class="box_bottom text-uppercase">{{ title }}</div>
         </div>
     </div>
 </template>
+
+<style lang="scss" scoped>
+@use "../assets/scss/Variables.scss" as *;
+
+.box_bottom {
+    color: $lighter;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+</style>

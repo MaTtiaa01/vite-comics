@@ -14,11 +14,6 @@ export default {
 
         }
     },
-    methods: {
-        getImageUrl(name) {
-            return new URL(`../assets/img/${name}`, import.meta.url).href
-        }
-    }
 }
 </script>
 
@@ -26,8 +21,8 @@ export default {
     <div class="comics_cards">
 
         <div class="container text-center py-4">
-            <div class="row row-cols-2 row-cols-sm-4 row-cols-md-6">
-                <Card_comic v-for="comic in comics" :image="getImageUrl(comic.thumb)" :title="comic.series">
+            <div class="row row-cols-2 row-cols-sm-4 row-cols-md-6 g-4">
+                <Card_comic v-for="comic in comics" :image="comic.thumb" :title="comic.series">
                 </Card_comic>
             </div>
             <button class="text-uppercase">load more</button>
