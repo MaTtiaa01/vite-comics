@@ -15,10 +15,16 @@ export default {
                         <div class="col"></div>
                     </div>
                 </div>
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col dc_background">
+
                 </div>
             </div>
         </div>
     </section>
 </template>
+
+<style lang="scss" scoped>
+.dc_background {
+    background-image: url(../assets/img/dc-logo-bg.png);
+}
+</style>
